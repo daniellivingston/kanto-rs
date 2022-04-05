@@ -1,0 +1,12 @@
+[package]
+name = "kanto"
+version = "0.1.0"
+build = "build.rs"
+edition = "2021"
+
+[lib]
+name = "kanto"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cbindgen = "0.4"
