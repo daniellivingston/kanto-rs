@@ -23,6 +23,22 @@ Corrosion: https://github.com/corrosion-rs/corrosion
 
 # WASM:
 
+Build:
+
+```sh
+$ cd wasm/
+$ wasm-pack build
+$ cd www/
+$ npm install
+```
+
+Run:
+
+```
+$ cd wasm/www/
+$ npm run start
+```
+
 Rust WASM: https://rustwasm.github.io/docs/book/game-of-life/introduction.html
 (Addtl. deps: https://rustwasm.github.io/wasm-pack/installer/)
 
